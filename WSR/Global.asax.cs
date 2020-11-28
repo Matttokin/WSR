@@ -18,6 +18,7 @@ namespace WSR
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            new Migrations.Configuration().startSeed();
         }
     }
 }
