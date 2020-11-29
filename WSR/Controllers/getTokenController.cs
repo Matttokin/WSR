@@ -13,18 +13,24 @@ namespace WSR.Controllers
     public class getTokenController : ApiController
     {
         
-        public User Post(string login, string password)
+        public ExportUser Post(string login, string password)
         {
             Context db = new Context();
-            //var roleId = db.Roles.FirstOrDefault(x => x.Name == )
-            var user = db.Users.FirstOrDefault(x => x.Login == login && x.Password == password && x.Role.Name == "Курьер") ;
+
+            var user = db.Users.FirstOrDefault(x => x.Login.Equals(login) && x.Password.Equals(password) && x.Role.Name.Equals("Курьер")) ;
             if(user == null)
             {
                 return null;
             } else
             {
-                return user;
+                ExportUser u = new ExportUser { FIO = user.FIO, Token = user.Token };
+                return u;
             }
         }
+    }
+    public class ExportUser
+    {
+        public string FIO { get; set; }
+        public string Token { get; set; }
     }
 }

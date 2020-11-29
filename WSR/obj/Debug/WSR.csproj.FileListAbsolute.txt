@@ -101,3 +101,4 @@ F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.csproj.GenerateResource.cache
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.addCourier.resources
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.addCourierNew.resources
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.addCourierFix.resources
+F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.csprojAssemblyReference.cache
