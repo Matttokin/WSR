@@ -1,4 +1,3 @@
-F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.csprojAssemblyReference.cache
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.csproj.CoreCompileInputs.cache
 F:\Users\MrTokin\Desktop\WSR\WSR\bin\WSR.dll.config
 F:\Users\MrTokin\Desktop\WSR\WSR\bin\WSR.dll
@@ -97,5 +96,8 @@ F:\Users\MrTokin\Desktop\WSR\WSR\bin\ru\System.Web.WebPages.Razor.resources.dll
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.csproj.CopyComplete
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.dll
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.pdb
-F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.Init.resources
+F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.init.resources
 F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.csproj.GenerateResource.cache
+F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.addCourier.resources
+F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.addCourierNew.resources
+F:\Users\MrTokin\Desktop\WSR\WSR\obj\Debug\WSR.Migrations.addCourierFix.resources

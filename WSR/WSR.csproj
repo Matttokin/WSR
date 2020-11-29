@@ -163,6 +163,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\getOrderByIdController.cs" />
+    <Compile Include="Controllers\getTokenController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WebController.cs" />
     <Compile Include="DataBase\Context.cs" />
@@ -171,12 +172,25 @@
     <Compile Include="DataBase\Models\Role.cs" />
     <Compile Include="DataBase\Models\Nomenclature.cs" />
     <Compile Include="DataBase\Models\User.cs" />
+    <Compile Include="DataBase\Models\Сourier.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011281459470_Init.cs" />
-    <Compile Include="Migrations\202011281459470_Init.designer.cs">
-      <DependentUpon>202011281459470_Init.cs</DependentUpon>
+    <Compile Include="Migrations\202011291010553_init.cs" />
+    <Compile Include="Migrations\202011291010553_init.designer.cs">
+      <DependentUpon>202011291010553_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011291020584_addCourier.cs" />
+    <Compile Include="Migrations\202011291020584_addCourier.designer.cs">
+      <DependentUpon>202011291020584_addCourier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011291026357_addCourierNew.cs" />
+    <Compile Include="Migrations\202011291026357_addCourierNew.designer.cs">
+      <DependentUpon>202011291026357_addCourierNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011291028170_addCourierFix.cs" />
+    <Compile Include="Migrations\202011291028170_addCourierFix.designer.cs">
+      <DependentUpon>202011291028170_addCourierFix.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -266,8 +280,17 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202011281459470_Init.resx">
-      <DependentUpon>202011281459470_Init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202011291010553_init.resx">
+      <DependentUpon>202011291010553_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011291020584_addCourier.resx">
+      <DependentUpon>202011291020584_addCourier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011291026357_addCourierNew.resx">
+      <DependentUpon>202011291026357_addCourierNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011291028170_addCourierFix.resx">
+      <DependentUpon>202011291028170_addCourierFix.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

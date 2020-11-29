@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Init : DbMigration
+    public partial class init : DbMigration
     {
         public override void Up()
         {
@@ -24,6 +24,7 @@
                         Id = c.Int(nullable: false, identity: true),
                         OrderId = c.Int(nullable: false),
                         NomenclatureId = c.Int(nullable: false),
+                        CountInOrder = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Nomenclatures", t => t.NomenclatureId, cascadeDelete: true)
@@ -73,9 +74,9 @@
         
         public override void Down()
         {
-            DropForeignKey("dbo.OrderNoms", "OrderId", "dbo.Orders");
             DropForeignKey("dbo.Orders", "UserId", "dbo.Users");
             DropForeignKey("dbo.Users", "RoleId", "dbo.Roles");
+            DropForeignKey("dbo.OrderNoms", "OrderId", "dbo.Orders");
             DropForeignKey("dbo.OrderNoms", "NomenclatureId", "dbo.Nomenclatures");
             DropIndex("dbo.Users", new[] { "RoleId" });
             DropIndex("dbo.Orders", new[] { "UserId" });

@@ -22,12 +22,12 @@
             createRole(context, "Менеджер по доставке");
             createRole(context, "Курьер");
 
-            createNom(context, "Кактус",1);
-            createNom(context, "Велик",2);
-            createNom(context, "Гелик",99);
-            createNom(context, "Антивелик",7);
-            createNom(context, "АнтиГелиВелик",4);
-            createNom(context, "Кот",1);
+            createNom(context, "Кактус", 1);
+            createNom(context, "Велик", 2);
+            createNom(context, "Гелик", 99);
+            createNom(context, "Антивелик", 7);
+            createNom(context, "АнтиГелиВелик", 4);
+            createNom(context, "Кот", 1);
 
         }
         public void startSeed()

@@ -18,6 +18,7 @@ namespace WSR.DataBase
         public DbSet<Order> Orders { get; set; }
         public DbSet<Nomenclature> Nomenclatures { get; set; }
         public DbSet<OrderNom> OrderNoms { get; set; }
-        public object Role { get; internal set; }
+
+        public DbSet<Сourier> Сouriers { get;  set; }
     }
 }

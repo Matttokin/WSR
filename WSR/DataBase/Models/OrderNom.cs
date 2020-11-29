@@ -12,5 +12,6 @@ namespace WSR.DataBase.Models
         public Nomenclature Nomenclature { get; set; }
         public int OrderId { get; set; }
         public int NomenclatureId { get; set; }
+        public int CountInOrder { get; set; }
     }
 }

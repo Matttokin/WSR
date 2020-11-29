@@ -7,13 +7,13 @@ namespace WSR.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Init : IMigrationMetadata
+    public sealed partial class addCourier : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Init));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addCourier));
         
         string IMigrationMetadata.Id
         {
-            get { return "202011281459470_Init"; }
+            get { return "202011291020584_addCourier"; }
         }
         
         string IMigrationMetadata.Source
