@@ -19,6 +19,7 @@ namespace WSR
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             new Migrations.Configuration().startSeed();
+            //test github
         }
     }
 }
